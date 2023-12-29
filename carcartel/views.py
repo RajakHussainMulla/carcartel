@@ -42,7 +42,7 @@ def contact(request):
          name=request.POST['name']
          email=request.POST['email']
          subject=request.POST['subject']
-         phone=request.POST['message']
+         phone=request.POST['phone']
          message=request.POST['message']
           
          email_subject='you have a new message from CarZone website regarding ' + subject
